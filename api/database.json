@@ -1,51 +1,91 @@
 {
   "menu_items": [
-      {
-          "id": 1,
-          "name": "Tenders Basket",
-          "price": "$9.99"
-      },
-      {
-          "id": 2,
-          "name": "Half-Chicken",
-          "price": "$11.50"
-      },
-      {
-          "id": 3,
-          "name": "Thunder Thigh",
-          "price": "$8.00"
-      },
-      {
-          "id": 4,
-          "name": "Wings Basket",
-          "price": "$10.00"
-      },
-      {
-          "id": 5,
-          "name": "Chicken Sandwich",
-          "price": "$8.50"
-      }
-
+    {
+      "id": 1,
+      "name": "Tenders Basket",
+      "price": "$9.99"
+    },
+    {
+      "id": 2,
+      "name": "Half-Chicken",
+      "price": "$11.50"
+    },
+    {
+      "id": 3,
+      "name": "Thunder Thigh",
+      "price": "$8.00"
+    },
+    {
+      "id": 4,
+      "name": "Wings Basket",
+      "price": "$10.00"
+    },
+    {
+      "id": 5,
+      "name": "Chicken Sandwich",
+      "price": "$8.50"
+    }
   ],
   "heat_levels": [
-      {
-          "id": 1,
-          "name": "wimpy"
-      },
-      {
-          "id": 2,
-          "name": "spicy"
-      },
-      {
-          "id": 3,
-          "name": "crazy"
-      },
-      {
-          "id": 4,
-          "name": "deadly"
-      }
-
+    {
+      "id": 1,
+      "name": "wimpy"
+    },
+    {
+      "id": 2,
+      "name": "spicy"
+    },
+    {
+      "id": 3,
+      "name": "crazy"
+    },
+    {
+      "id": 4,
+      "name": "deadly"
+    }
   ],
-  "orders": []
-
+  "orders": [
+    {
+      "menu_itemId": 1,
+      "heat_levelId": 1,
+      "user": "jeff",
+      "id": 1
+    },
+    {
+      "menu_itemId": 2,
+      "heat_levelId": 2,
+      "user": "bob",
+      "id": 2
+    },
+    {
+      "menu_itemId": 5,
+      "heat_levelId": 4,
+      "user": "john",
+      "id": 3
+    },
+    {
+      "menu_itemId": 3,
+      "heat_levelId": 3,
+      "user": "mike",
+      "id": 4
+    },
+    {
+      "menu_itemId": 3,
+      "heat_levelId": 2,
+      "user": "jeff",
+      "id": 5
+    },
+    {
+      "menu_itemId": 4,
+      "heat_levelId": 1,
+      "user": "jeff",
+      "id": 6
+    },
+    {
+      "menu_itemId": 4,
+      "heat_levelId": 1,
+      "user": "jeff",
+      "id": 7
+    }
+  ]
 }
